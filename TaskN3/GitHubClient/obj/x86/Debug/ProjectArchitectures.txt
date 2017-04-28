@@ -1,0 +1,2 @@
+D:\ПЗ3\TaskN3\GitHubClient\GitHubClient.csproj;x86
+D:\ПЗ3\TaskN3\UWPLibrary\UWPLibrary.csproj;neutral

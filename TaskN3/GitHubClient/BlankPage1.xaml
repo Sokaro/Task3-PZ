@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="GitHubClient.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GitHubClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="WindowT2" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RequestedTheme="Dark" PointerPressed="Grid_PointerPressed" PointerReleased="Grid_PointerReleased">
+        <TextBlock x:Name="textBlock" Margin="20,0,0,20" TextWrapping="Wrap" Text="0" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="25"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="20,20,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Width="150" Height="30" Tapped="textBlock1_Tapped"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="20,70,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Width="150" Height="30" Tapped="textBlock2_Tapped"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="20,120,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Width="150" Height="30" Tapped="textBlock3_Tapped"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="20,170,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Width="150" Height="30" Tapped="textBlock4_Tapped"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="20,220,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Width="150" Height="30" Tapped="textBlock5_Tapped"/>
+        <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" Margin="20,0,0,260" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" FontSize="20" Width="150" Height="30" Tapped="textBlock6_Tapped"/>
+        <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" Margin="20,0,0,210" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" FontSize="20" Width="150" Height="30" Tapped="textBlock7_Tapped"/>
+        <TextBlock x:Name="textBlock8" HorizontalAlignment="Left" Margin="20,0,0,160" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" FontSize="20" Width="150" Height="30" Tapped="textBlock8_Tapped"/>
+        <TextBlock x:Name="textBlock9" HorizontalAlignment="Left" Margin="20,0,0,110" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" FontSize="20" Width="150" Height="30" Tapped="textBlock9_Tapped"/>
+        <TextBlock x:Name="textBlock10" Margin="20,0,0,60" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" FontSize="20" Height="30" Width="150" HorizontalAlignment="Left" Tapped="textBlock10_Tapped"/>
+        <TextBlock x:Name="textBlock11" Margin="20,20,20,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Width="150" Height="30" HorizontalAlignment="Right" Tapped="textBlock11_Tapped"/>
+        <TextBlock x:Name="textBlock12" Margin="0,70,20,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Width="150" Height="30" HorizontalAlignment="Right" Tapped="textBlock12_Tapped"/>
+        <TextBlock x:Name="textBlock13" Margin="0,120,20,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Width="150" Height="30" HorizontalAlignment="Right" Tapped="textBlock13_Tapped"/>
+        <TextBlock x:Name="textBlock14" Margin="0,170,20,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Width="150" Height="30" HorizontalAlignment="Right" Tapped="textBlock14_Tapped"/>
+        <TextBlock x:Name="textBlock15" Margin="0,220,20,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Width="150" Height="30" HorizontalAlignment="Right" Tapped="textBlock15_Tapped"/>
+        <TextBlock x:Name="textBlock16" Margin="0,0,20,260" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" FontSize="20" Width="150" Height="30" HorizontalAlignment="Right" Tapped="textBlock16_Tapped"/>
+        <TextBlock x:Name="textBlock17" Margin="0,0,20,210" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" FontSize="20" Width="150" Height="30" HorizontalAlignment="Right" Tapped="textBlock17_Tapped"/>
+        <TextBlock x:Name="textBlock18" Margin="0,0,20,160" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" FontSize="20" Width="150" Height="30" HorizontalAlignment="Right" Tapped="textBlock18_Tapped"/>
+        <TextBlock x:Name="textBlock19" Margin="0,0,20,110" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" FontSize="20" Height="30" Width="150" HorizontalAlignment="Right" Tapped="textBlock19_Tapped"/>
+        <TextBlock x:Name="textBlock20" Margin="0,0,20,60" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" FontSize="20" Height="30" Width="150" HorizontalAlignment="Right" Tapped="textBlock20_Tapped"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Right" Margin="0,0,163,20" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Bottom" Width="90"/>
+        <Button x:Name="button" Content="N" HorizontalAlignment="Right" Margin="0,0,126,20" VerticalAlignment="Bottom" Height="32" Width="32" Click="button_Click"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Right" Margin="0,0,57,20" TextWrapping="Wrap" Text="UserId" VerticalAlignment="Bottom" Width="64"/>
+        <Button x:Name="button1" Content="I" HorizontalAlignment="Right" Margin="0,0,20,20" VerticalAlignment="Bottom" Height="32" Width="32"/>
+        <Button x:Name="button2" Content="Load" HorizontalAlignment="Left" Margin="20,284,0,0" VerticalAlignment="Top" Click="button2_Click" Width="60" Visibility="Collapsed" Height="32"/>
+    </Grid>
+</Page>
